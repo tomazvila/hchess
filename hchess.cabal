@@ -24,26 +24,26 @@ executable hchess
   build-depends:
     , aeson
     , async
-    , base          >=4.13.0.0 && <=4.18.0.0
-    , bytestring
-    , containers
-    , data-default
-    , directory
-    , filepath
-    , mtl
-    , optics-core
-    , profunctors
-    , relude
-    , shower
-    , text
-    , time
-    , with-utf8
+    , base
+    -- , bytestring
+    -- , containers
+    -- , data-default
+    -- , directory
+    -- , filepath
+    -- , mtl
+    -- , optics-core
+    -- , profunctors
+    -- , relude
+    -- , shower
+    -- , text
+    -- , time
+    -- , with-utf8
     , brick
 
   mixins:
-    base hiding (Prelude),
-    relude (Relude as Prelude, Relude.Container.One),
-    relude
+    -- base hiding (Prelude),
+    -- relude (Relude as Prelude, Relude.Container.One),
+    -- relude
 
   ghc-options:
     -Wall -Wincomplete-record-updates -Wincomplete-uni-patterns
@@ -52,45 +52,45 @@ executable hchess
     -threaded
 
   default-extensions:
-    NoStarIsType
-    BangPatterns
-    ConstraintKinds
-    DataKinds
-    DeriveDataTypeable
-    DeriveFoldable
-    DeriveFunctor
-    DeriveGeneric
-    DeriveLift
-    DeriveTraversable
-    DerivingStrategies
-    DerivingVia
-    EmptyCase
-    EmptyDataDecls
-    EmptyDataDeriving
-    ExistentialQuantification
-    ExplicitForAll
-    FlexibleContexts
-    FlexibleInstances
-    GADTSyntax
-    GeneralisedNewtypeDeriving
-    ImportQualifiedPost
-    KindSignatures
-    LambdaCase
-    MultiParamTypeClasses
-    MultiWayIf
-    NumericUnderscores
-    OverloadedStrings
-    PolyKinds
-    PostfixOperators
-    RankNTypes
-    ScopedTypeVariables
-    StandaloneDeriving
-    StandaloneKindSignatures
-    TupleSections
-    TypeApplications
-    TypeFamilies
-    TypeOperators
-    ViewPatterns
+    -- NoStarIsType
+    -- BangPatterns
+    -- ConstraintKinds
+    -- DataKinds
+    -- DeriveDataTypeable
+    -- DeriveFoldable
+    -- DeriveFunctor
+    -- DeriveGeneric
+    -- DeriveLift
+    -- DeriveTraversable
+    -- DerivingStrategies
+    -- DerivingVia
+    -- EmptyCase
+    -- EmptyDataDecls
+    -- EmptyDataDeriving
+    -- ExistentialQuantification
+    -- ExplicitForAll
+    -- FlexibleContexts
+    -- FlexibleInstances
+    -- GADTSyntax
+    -- GeneralisedNewtypeDeriving
+    -- ImportQualifiedPost
+    -- KindSignatures
+    -- LambdaCase
+    -- MultiParamTypeClasses
+    -- MultiWayIf
+    -- NumericUnderscores
+    -- OverloadedStrings
+    -- PolyKinds
+    -- PostfixOperators
+    -- RankNTypes
+    -- ScopedTypeVariables
+    -- StandaloneDeriving
+    -- StandaloneKindSignatures
+    -- TupleSections
+    -- TypeApplications
+    -- TypeFamilies
+    -- TypeOperators
+    -- ViewPatterns
 
   main-is:            Main.hs
   hs-source-dirs:     src
