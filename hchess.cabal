@@ -4,7 +4,7 @@ version:            0.1.0.0
 license:            MIT
 maintainer:         tomazvila@outlook.com
 author:             Tomas Mažvila
-category:           Web
+category:           Command Line application
 
 -- TODO: Before hackage release.
 -- A short (one-line) description of the package.
