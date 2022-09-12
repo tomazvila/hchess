@@ -6,16 +6,6 @@ maintainer:         tomazvila@outlook.com
 author:             Tomas Mažvila
 category:           Command Line application
 
--- TODO: Before hackage release.
--- A short (one-line) description of the package.
--- synopsis:
-
--- A longer description of the package.
--- description:
-
--- A URL where users can report bugs.
--- bug-reports:
-
 extra-source-files:
   LICENSE
   README.md
