@@ -5,7 +5,6 @@ module Board.Board (
 import qualified Board.File as F (File (..), files)
 import Board.Piece
 import qualified Board.Rank as R (Rank, create, ranks)
-import Data.Map (Map)
 import qualified Data.Map as Map
 
 type ChessBoard = Map Square (Maybe Piece)
